@@ -16,7 +16,7 @@ const AppointmentItem = props => {
   return (
     <li className="container">
       <div className="flex-row">
-        <h1>{title}</h1>
+        <p>{title}</p>
         <button type="button" data-testid="star" onClick={onClickStar}>
           <img src={image} alt="star" />
         </button>
